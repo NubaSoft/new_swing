@@ -1,0 +1,15 @@
+export const config = {
+  color_1: "#097468",
+  color_2: "#F6AB7A",
+  color_3: "#09746855",
+  color_4: "#388E3C",
+  color_5: "#388E3C",
+  color_6: "#FFD598",
+  baseURL: "https://swing.nubasoft.net",
+  contactNumber1: "67060730",
+  contactNumber2: "64441755",
+  instagramName: "swing.kw",
+  instagramLink: "https://instagram.com/swing.kwt?igshid=YmMyMTA2M2Y=",
+  Token: "",
+  profile: {},
+};

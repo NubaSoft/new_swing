@@ -18,4 +18,11 @@ buildscript {
     }
 }
 
+def hermesVersionFile = file("../node_modules/react-native/sdks/hermes-engine/version.properties")
+if (!hermesVersionFile.exists()) {
+    hermesVersionFile.parentFile.mkdirs()
+    // React Native 0.81.4 may miss this file; create an empty placeholder so the Gradle plugin can load it.
+    hermesVersionFile.text = "HERMES_V1_VERSION_NAME=\n"
+}
+
 apply plugin: "com.facebook.react.rootproject"
