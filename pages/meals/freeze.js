@@ -65,14 +65,14 @@ var Freeze = ({ navigation, handler, setIsLoading, FreezeBackHandler }) => {
       });
   };
   var onChangeDate = (date, type) => {
-    var indx = pausedDays.indexOf(date.format("YYYY-MM-DD"));
+    var indx = pausedDays.indexOf(moment(date).format("YYYY-MM-DD"));
     var pausedD = pausedDays;
     if (indx == -1) {
-      pausedD.push(date.format("YYYY-MM-DD"));
+      pausedD.push(moment(date).format("YYYY-MM-DD"));
     } else {
-      unPause(date.format("YYYY-MM-DD"));
+      unPause(moment(date).format("YYYY-MM-DD"));
       pausedD = pausedD.filter(function (value, index, arr) {
-        return value != date.format("YYYY-MM-DD");
+        return value != moment(date).format("YYYY-MM-DD");
       });
     }
     setPausedDays(pausedD);
@@ -82,8 +82,8 @@ var Freeze = ({ navigation, handler, setIsLoading, FreezeBackHandler }) => {
     console.log("**************");
   };
   const customDatesStylesCallback = (date) => {
-    var indx = subscriptionDays.indexOf(date.format("YYYY-MM-DD"));
-    var pausindx = pausedDays.indexOf(date.format("YYYY-MM-DD"));
+    var indx = subscriptionDays.indexOf(moment(date).format("YYYY-MM-DD"));
+    var pausindx = pausedDays.indexOf(moment(date).format("YYYY-MM-DD"));
     if (pausindx != -1) {
       return {
         style: {
@@ -348,7 +348,7 @@ var Freeze = ({ navigation, handler, setIsLoading, FreezeBackHandler }) => {
                     fontSize: 14,
                   }}
                   disabledDates={(date) => {
-                    if (subscriptionDays.includes(date.format("YYYY-MM-DD"))) {
+                    if (subscriptionDays.includes(moment(date).format("YYYY-MM-DD"))) {
                       return false;
                     } else {
                       return true;

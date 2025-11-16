@@ -43,6 +43,25 @@
 		DA4F97682EC75E1600E70AC1 /* FontAwesome6_Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = FontAwesome6_Regular.ttf; path = ../assets/fonts/FontAwesome6_Regular.ttf; sourceTree = "<group>"; };
 		DA4F97692EC75E1600E70AC1 /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = MaterialCommunityIcons.ttf; path = ../assets/fonts/MaterialCommunityIcons.ttf; sourceTree = "<group>"; };
 		DA4F976A2EC75E1600E70AC1 /* EvilIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = EvilIcons.ttf; path = ../assets/fonts/EvilIcons.ttf; sourceTree = "<group>"; };
+		DA6661A72ECA53610090830C /* AntDesign.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = AntDesign.ttf; sourceTree = "<group>"; };
+		DA6661A82ECA53610090830C /* Entypo.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Entypo.ttf; sourceTree = "<group>"; };
+		DA6661A92ECA53610090830C /* EvilIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = EvilIcons.ttf; sourceTree = "<group>"; };
+		DA6661AA2ECA53610090830C /* Feather.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Feather.ttf; sourceTree = "<group>"; };
+		DA6661AB2ECA53610090830C /* FontAwesome.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome.ttf; sourceTree = "<group>"; };
+		DA6661AC2ECA53610090830C /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome5_Brands.ttf; sourceTree = "<group>"; };
+		DA6661AD2ECA53610090830C /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome5_Regular.ttf; sourceTree = "<group>"; };
+		DA6661AE2ECA53610090830C /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome5_Solid.ttf; sourceTree = "<group>"; };
+		DA6661AF2ECA53610090830C /* FontAwesome6_Brands.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome6_Brands.ttf; sourceTree = "<group>"; };
+		DA6661B02ECA53610090830C /* FontAwesome6_Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome6_Regular.ttf; sourceTree = "<group>"; };
+		DA6661B12ECA53610090830C /* FontAwesome6_Solid.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome6_Solid.ttf; sourceTree = "<group>"; };
+		DA6661B22ECA53610090830C /* Fontisto.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Fontisto.ttf; sourceTree = "<group>"; };
+		DA6661B32ECA53610090830C /* Foundation.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Foundation.ttf; sourceTree = "<group>"; };
+		DA6661B42ECA53610090830C /* Ionicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Ionicons.ttf; sourceTree = "<group>"; };
+		DA6661B52ECA53610090830C /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MaterialCommunityIcons.ttf; sourceTree = "<group>"; };
+		DA6661B62ECA53610090830C /* MaterialIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MaterialIcons.ttf; sourceTree = "<group>"; };
+		DA6661B72ECA53610090830C /* Octicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Octicons.ttf; sourceTree = "<group>"; };
+		DA6661B82ECA53610090830C /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SimpleLineIcons.ttf; sourceTree = "<group>"; };
+		DA6661B92ECA53610090830C /* Zocial.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Zocial.ttf; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -89,6 +108,25 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				DA6661A72ECA53610090830C /* AntDesign.ttf */,
+				DA6661A82ECA53610090830C /* Entypo.ttf */,
+				DA6661A92ECA53610090830C /* EvilIcons.ttf */,
+				DA6661AA2ECA53610090830C /* Feather.ttf */,
+				DA6661AB2ECA53610090830C /* FontAwesome.ttf */,
+				DA6661AC2ECA53610090830C /* FontAwesome5_Brands.ttf */,
+				DA6661AD2ECA53610090830C /* FontAwesome5_Regular.ttf */,
+				DA6661AE2ECA53610090830C /* FontAwesome5_Solid.ttf */,
+				DA6661AF2ECA53610090830C /* FontAwesome6_Brands.ttf */,
+				DA6661B02ECA53610090830C /* FontAwesome6_Regular.ttf */,
+				DA6661B12ECA53610090830C /* FontAwesome6_Solid.ttf */,
+				DA6661B22ECA53610090830C /* Fontisto.ttf */,
+				DA6661B32ECA53610090830C /* Foundation.ttf */,
+				DA6661B42ECA53610090830C /* Ionicons.ttf */,
+				DA6661B52ECA53610090830C /* MaterialCommunityIcons.ttf */,
+				DA6661B62ECA53610090830C /* MaterialIcons.ttf */,
+				DA6661B72ECA53610090830C /* Octicons.ttf */,
+				DA6661B82ECA53610090830C /* SimpleLineIcons.ttf */,
+				DA6661B92ECA53610090830C /* Zocial.ttf */,
 				DA4F975C2EC75E1600E70AC1 /* AntDesign.ttf */,
 				DA4F97592EC75E1600E70AC1 /* Entypo.ttf */,
 				DA4F976A2EC75E1600E70AC1 /* EvilIcons.ttf */,
@@ -229,13 +267,9 @@
 			inputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-swing_app/Pods-swing_app-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			inputPaths = (
-			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-swing_app/Pods-swing_app-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -272,13 +306,9 @@
 			inputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-swing_app/Pods-swing_app-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			inputPaths = (
-			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-swing_app/Pods-swing_app-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

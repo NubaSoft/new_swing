@@ -58,7 +58,7 @@ var CalendarView = ({
   //Animation
   const transAnim = useRef(new Animated.Value(0)).current; //Initial value for translation is 0
   const customDatesStylesCallback = (date) => {
-    var indx = subscriptionDays.indexOf(date.format("YYYY-MM-DD"));
+    var indx = subscriptionDays.indexOf(moment(date).format("YYYY-MM-DD"));
     var statusCode = subscriptionDaysStatus[indx];
 
     switch (statusCode) {
@@ -164,8 +164,8 @@ var CalendarView = ({
 
   var selectedDateChanged = (selDate) => {
     console.log("Selected Date Changed = ");
-    console.log(selDate.format("dddd, MMMM DD"));
-    var indx = subscriptionDays.indexOf(selDate.format("YYYY-MM-DD"));
+    console.log(moment(selDate).format("dddd, MMMM DD"));
+    var indx = subscriptionDays.indexOf(moment(selDate).format("YYYY-MM-DD"));
     var statusCode = subscriptionDaysStatus[indx];
     var weekId = subscriptionWeekIds[indx];
     var dayId = subscriptionDayIds[indx];
@@ -178,8 +178,8 @@ var CalendarView = ({
     } else if (statusCode == 3) {
       Alert.alert(lang[lang.lang].calendar_alert_9);
       handler(
-        selDate.format("dddd, DD/MM"),
-        selDate.format("YYYY-MM-DD"),
+        moment(selDate).format("dddd, DD/MM"),
+        moment(selDate).format("YYYY-MM-DD"),
         weekId,
         dayId,
         centerId,
@@ -188,8 +188,8 @@ var CalendarView = ({
       );
     } else {
       handler(
-        selDate.format("dddd, DD/MM"),
-        selDate.format("YYYY-MM-DD"),
+        moment(selDate).format("dddd, DD/MM"),
+        moment(selDate).format("YYYY-MM-DD"),
         weekId,
         dayId,
         centerId,
@@ -481,7 +481,7 @@ var CalendarView = ({
                     fontSize: 14,
                   }}
                   disabledDates={(date) => {
-                    if (subscriptionDays.includes(date.format("YYYY-MM-DD"))) {
+                    if (subscriptionDays.includes(moment(date).format("YYYY-MM-DD"))) {
                       return false;
                     } else {
                       return true;

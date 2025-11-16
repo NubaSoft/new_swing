@@ -166,7 +166,7 @@ const PackageSelection = ({ handler, offdays, fromwhere, onBackPress }) => {
               previousTitleStyle={styles.previousTitleStyle}
               textStyle={styles.textStyle}
               disabledDates={date => {
-                if (subscriptionStartDates.includes(date.format("YYYY-MM-DD"))) {
+                if (subscriptionStartDates.includes(moment(date).format("YYYY-MM-DD"))) {
                   return false
                 } else {
                   return true

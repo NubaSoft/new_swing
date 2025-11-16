@@ -114,7 +114,7 @@ var FastRenewPackageSelection = ({
 
     onChangeStartD(date);
     onChangeEndD(
-      moment(date.format("DD-MM-YYYY"), "DD-MM-YYYY").add(valueDays, "days")
+      moment(moment(date).format("DD-MM-YYYY"), "DD-MM-YYYY").add(valueDays, "days")
     );
     if (date != null) {
       setDisableDaysPicker(false);
@@ -312,10 +312,10 @@ var FastRenewPackageSelection = ({
                   }}
                   disabledDates={(date) => {
                     if (
-                      subscriptionStartDates.includes(date.format("YYYY-MM-DD"))
+                      subscriptionStartDates.includes(moment(date).format("YYYY-MM-DD"))
                       // ) &&
                       //   disableDaysPicker) ||
-                      // inBetweenDates.includes(date.format("YYYY-MM-DD"))
+                      // inBetweenDates.includes(moment(date).format("YYYY-MM-DD"))
                     ) {
                       return false;
                     } else {
