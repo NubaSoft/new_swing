@@ -342,7 +342,7 @@ var FastRenewPackageSelection = ({
                 ValueMeal,
                 value,
                 subdays,
-                startD.format("YYYY-MM-DD"),
+                moment(startD).format("YYYY-MM-DD"),
                 menuID,
                 price
               );

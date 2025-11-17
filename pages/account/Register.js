@@ -68,20 +68,20 @@ var Register = ({
   const back_arrow = require("../../assets/back-arrow.png");
 
   //Actions
-  var getDeviceInfo = () => {
-    var DeviceInfo = {
-      deviceId: "ID",
-      deviceOsType: DeviceInfo.getSystemName(),
-      deviceOsVersion: DeviceInfo.getSystemVersion(),
-      deviceModel: DeviceInfo.getModel(),
-      appVersion: "1.0.0",
-      pushNotificationToken: "PUSH_NOTIFICATION_TOKEN1",
-    };
+  // var getDeviceInfo = () => {
+  //   var DeviceInfo = {
+  //     deviceId: "ID",
+  //     deviceOsType: DeviceInfo.getSystemName(),
+  //     deviceOsVersion: DeviceInfo.getSystemVersion(),
+  //     deviceModel: DeviceInfo.getModel(),
+  //     appVersion: "1.0.0",
+  //     pushNotificationToken: "PUSH_NOTIFICATION_TOKEN1",
+  //   };
 
-    // console.log(DeviceInfo);
-  };
+  //   // console.log(DeviceInfo);
+  // };
   var checkRegInfo = () => {
-    getDeviceInfo();
+    // getDeviceInfo();
     if (name == "" || mobilephone == "") {
       return 0;
     } else if (mobilephone.length != 8) {

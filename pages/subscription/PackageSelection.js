@@ -181,7 +181,7 @@ const PackageSelection = ({ handler, offdays, fromwhere, onBackPress }) => {
             onPress={() => {
               if (startD) {
                 // TODO: remove zero constants
-                handler(0, 0, 0, startD.format("YYYY-MM-DD"))
+                handler(0, 0, 0, moment(startD).format("YYYY-MM-DD"))
               } else {
                 Alert.alert(lang[lang.lang].package_selection_alert_10)
               }

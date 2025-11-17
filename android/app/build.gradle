@@ -32,8 +32,8 @@ android {
         applicationId "com.nubasoft.swinghealthy_food"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
-        versionCode 41
-        versionName "1.4.1"
+        versionCode 43
+        versionName "1.4.3"
     }
 
     signingConfigs {
